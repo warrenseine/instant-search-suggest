@@ -32,7 +32,7 @@ jQuery(function($){
 				switch(item.type) {
 
 					case 'post':
-						item.title = this.addMatchClass(item.title,q);
+						// item.title = this.addMatchClass(item.title,q);
 						var template = $('#wpiss-post-template').html();
 						Mustache.parse(template);
 						isshtml += Mustache.render(template, item);
